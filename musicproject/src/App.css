@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.index{
+    width: 7.5rem;
+}
+.index .header{
+    width: 100%;
+    height: 1.6rem;
+    background-color: #d43c33;
+    position: relative;
+}
+.index .header .span1{
+    display: inline-block;
+    margin-left: 0.1rem;
+    color: #fff;
+    font-size: 0.5rem;
+    line-height: 1.6rem;
+}
+.index .header .span2{
+    position: absolute;
+    top: 50%;
+    right: 0.1rem;
+    margin-top: -0.36rem;
+    width: 2rem;
+    height: 0.72rem;
+    line-height: 1.6rem;
+    border-radius: 0.36rem;
+    background-color: #fff;
+    color: #d43c33;
+    font-size: 0.22rem;
+    line-height: 0.72rem;
+    text-align: center;
+    font-weight: bold;
+}
+/* 导航栏 */
+.index .nav{
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.34rem;
+    color: #333;
+    line-height: 0.8rem;
+    border-bottom: 0.01rem solid #dadada;
+    display: flex;
+    justify-content: space-around;
+}
+.index .nav .active{
+    color: #d43c33;
+    border-bottom: 0.04rem solid #d43c33;
+}
